@@ -14,31 +14,57 @@ body{
 
 #title{
     text-align: center;
-    padding: 0.8rem 0;
+    padding: 12.8px 0;
     font-size: 100px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;}    
 
 .questions{
-    margin: 3rem auto;
+    margin: 48px auto;
     width: 90vw;
-    padding: 2rem;
+    padding: 32px;
     background: rgba(0,255,221,0.45);
     cursor: default;
-    border-radius: 1rem; }
+    border-radius: 16px; }
 
 #question{
-    margin-bottom: 1rem; }
+    margin-bottom:16px; }
 
 .option{
     margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    border-bottom: solid 0.1rem blue;
-    width: 15rem;
+    font-size: 19.2px;
+    border-bottom: solid 1.6px blue;
+    width: 240px;
     background: lightblue;
-    border-radius: 1rem;
+    border-radius: 16px;
     }
 
 .option:hover{
     color: white;
-    }    
+    }
+    
+ol{
+    position: relative;
+    padding: 0 24px;
+    color: rgb(1,73,73);
+    }
+span{
+    display: block;
+    padding: 1.6px 12px;
+    border-radius: 16px;
+    }
+    
+.buttons{
+        text-align: center;
+    }
+button{
+        padding: 3.2px 24px;
+        border: none;
+        outline: none;
+        font-size: 24px;
+        border-radius: 24px;
+        color: lavender;
+        background: rgba(0,255,221,0.45);
+    }
+button:active{
+        background: lavender;    }
