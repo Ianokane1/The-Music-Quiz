@@ -32,9 +32,9 @@ body{
 
 .option{
     margin-bottom: 0.5rem;
-    font-size: 19.2px;
+    font-size: 30px;
     border-bottom: solid 1.6px blue;
-    width: 240px;
+    width: 400px;
     background: lightblue;
     border-radius: 16px;
     }
@@ -58,16 +58,18 @@ span{
         text-align: center;
     }
 button{
-        padding: 3.2px 24px;
+        padding: 3.2px 40px;
         border: none;
         outline: none;
         font-size: 24px;
         border-radius: 24px;
-        color: lavender;
-        background: rgba(0,255,221,0.45);
+        color: black;
+        background: pink;
     }
-button:active{
-        background: lavender;    }
+button:hover{
+        background: rgba(0,255,221,0.45);
+        color: pink;    
+    }
 
         #scoreboard,#answerBank{
             width: 320px;
