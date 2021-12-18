@@ -152,13 +152,13 @@ function backToQuiz(){
 
 //function to check Answers
 function checkAnswer(){
-    var answerBank= document.getElementById('answerBank');
-    var answers= document.getElementById('answers');
+    let answerBank= document.getElementById('answerBank');
+    let answers= document.getElementById('answers');
     answerBank.style.display= 'block';
     scoreboard.style.display= 'none';
-    for(var a=0;a<questionBank.length;a++)
+    for(let a=0;a<questionBank.length;a++)
     {
-        var list= document.createElement('li');
+        let list= document.createElement('li');
         list.innerHTML= questionBank[a].answer;
         answers.appendChild(list);
     }
