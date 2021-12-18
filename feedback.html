@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+     <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
-    
+    <h1 id = "title" class ="animate__animated animate__bounce">The Music Quiz</h1>
+   <section class ="feedback-container">
+    <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+       <h2>Give us your feedback! </h2>
+       <label for="fname">First Name:</label> 
+       <input name="fname" id ="fname" class="text-input" type="text" required>
+       <br> 
+       <label for="lname">Last Name: </label>
+       <input name="lname" id="lname" class="text-input" type="text" required>  
+       <br> 
+       <label for="email">Email: </label>
+       <input name="email" id="email" class="text-input" type="email" required> 
+       <br> 
+       <label for="messageus">Message Us: </label> 
+       <input name="message us" id ="messageus" class="text-input" type="text" required>
+       <input class="send-button"  type="submit" value="Send"/> 
+       <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+    </form>
+ </section>
+
+ 
+ 
+   
+
+
+
+
+<!-- javascript file source -->
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
