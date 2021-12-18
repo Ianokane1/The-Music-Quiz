@@ -68,3 +68,31 @@ button{
     }
 button:active{
         background: lavender;    }
+
+        #scoreboard,#answerBank{
+            width: 320px;
+            background: rgba(230,230,250,0.77);
+            padding: 32px;
+            text-align: center;
+            margin: auto;
+            position: relative;
+            top: 80px;
+            display: none;     }
+
+            #score-title{
+                margin: 16px 0;
+            }
+            #score-btn,#check-answer{
+                margin-top: 16px;
+            }
+            #score{
+                font-size: 40px;
+            }
+            #answerBank li{
+                text-align: left;
+                margin-bottom: 3.2px;
+                font-size: larger;
+            }
+            #answers{
+                margin-top: 16px;
+            }        
