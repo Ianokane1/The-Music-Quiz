@@ -17,7 +17,24 @@ body{
     padding: 12.8px 0;
     font-size: 100px;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;}    
+    font-family: Georgia, 'Times New Roman', Times, serif;} 
+    
+.landing {
+    margin: 48px auto;
+    width: 90vw;
+    padding: 32px;
+    background: rgba(117, 117, 165, 0.77);
+    cursor: default;
+    border-radius: 16px;
+    font-size: 30px;
+    text-align: center;
+}   
+
+.landing > h3, h4, p {
+    text-align: center;
+}
+
+
 
 .questions{
     margin: 48px auto;
@@ -106,7 +123,7 @@ button:hover{
             .signup-form {
                 margin: 100px 0 0 0;
                 color: #fff;
-                background-color: rgba(0,255,221,0.45);
+                background-color: black;
                 max-width: 400px;
                 position:fixed;
                 right: 40%;
