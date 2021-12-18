@@ -117,6 +117,7 @@ button:hover{
                 position:fixed;
                 right: 10%;
                 padding: 30px;
+                justify-content: center;
             }
             
             .text-input {
