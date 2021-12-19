@@ -86,7 +86,17 @@ var questionBank= [
         question : 'Florian Cloud de Bounevialle O\'Malley Armstrong is the real name of which 00s icon?',
         option : ['Pink','Avril Lavigne','Dido','Beyonce'],
         answer : 'Dido'
-    }
+    },
+    {
+        question : 'Eurovision sensation ABBA came from which country??',
+        option : ['Finland','Denmark','Sweden','Norway'],
+        answer : 'Sweden'
+    },
+    {
+        question : 'Which Irish rock band sang The Boys Are Back In Town??',
+        option : ['Thin Lizzy','U2','Aslan','None of the above'],
+        answer : 'Thin Lizzy'
+    },
 ]
 
 let question= document.getElementById('question');
