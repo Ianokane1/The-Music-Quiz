@@ -9,7 +9,7 @@ body{
     background: url(/assets/images/studio.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     height: 100vh; }
 
 #title{
@@ -100,12 +100,15 @@ button:hover{
 
             #score-title{
                 margin: 16px 0;
+                color: black;
             }
             #score-btn,#check-answer{
                 margin-top: 16px;
+                
             }
             #score{
                 font-size: 40px;
+                color: black;
             }
             #answerBank li{
                 text-align: left;
@@ -114,6 +117,7 @@ button:hover{
             }
             #answers{
                 margin-top: 16px;
+                color: black;
             } 
             
 /* feedback page*/
@@ -176,7 +180,7 @@ button:hover{
 	font-size: 250%;
 	margin: 1%;
 	padding: 5%;
-	color: pink;
+	color: rgba(57, 255, 20);
     margin-bottom: 0;
 }
 
