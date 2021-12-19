@@ -183,10 +183,15 @@ button:hover{
 	font-size: 250%;
 	margin-top: 150px;
 	padding: 5%;
-	color: white;
+	color: #ffbe0b;
     letter-spacing: 100px;
     
 }
 
 .social-networks i:hover {
-	color: rgba(117, 117, 165, 0.77); }
+	color:  rgba(117, 117, 165, 0.77);
+}
+
+#feedback-footer {
+    margin-top: 450px;
+}
