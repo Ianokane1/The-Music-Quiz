@@ -181,11 +181,12 @@ button:hover{
 
 .social-networks i {
 	font-size: 250%;
-	margin: 1%;
+	margin-top: 150px;
 	padding: 5%;
-	color: rgba(57, 255, 20);
-    margin-bottom: 0;
+	color: white;
+    letter-spacing: 100px;
+    
 }
 
 .social-networks i:hover {
-	color: white; }
+	color: rgba(117, 117, 165, 0.77); }
