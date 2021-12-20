@@ -12,12 +12,19 @@ body{
     background-repeat: repeat;
     height: 100vh; }
 
+    body > h1 {
+text-decoration: none;
+    }
+    
+
 #title{
     text-align: center;
     padding: 12.8px 0;
     font-size: 100px;
     color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;} 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+} 
     
 .landing {
     margin: 48px auto;
