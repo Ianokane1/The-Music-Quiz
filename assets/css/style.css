@@ -52,18 +52,18 @@ body{
     font-size: 30px;
     border-bottom: solid 1.6px pink;
     width: 400px;
-    background: pink;
+    background: #ffbe0b;
     border-radius: 16px;
     }
 
 .option:hover{
-    color: white;
+    color: black;
     }
     
 ol{
     position: relative;
     padding: 0 24px;
-    color: black;
+    color: white;
     }
 span{
     display: block;
@@ -80,8 +80,8 @@ button{
         outline: none;
         font-size: 40px;
         border-radius: 24px;
-        color: black;
-        background: pink;
+        color: white;
+        background: #ffbe0b;
     }
 button:hover{
         background: rgba(117, 117, 165, 0.77);
@@ -176,13 +176,12 @@ button:hover{
 }
 
 .social-networks li {
-	display: inline;
+	display: ;
 }
 
 .social-networks i {
 	font-size: 250%;
 	margin-top: 10px;
-	padding: 5%;
 	color: #ffbe0b;
     letter-spacing: 100px;
     
