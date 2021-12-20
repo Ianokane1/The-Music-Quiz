@@ -195,3 +195,10 @@ button:hover{
 #feedback-footer {
     margin-top: 450px;
 }
+
+@media screen and (max-width: 550px) {
+    .option {
+        font-size: 20px;
+        max-width: 200px;
+    }
+}
