@@ -49,7 +49,7 @@ Cinzel Decorative was used for everthing else.
 
 ### Desktop Quiz Page
 
-![alt text](assets/images/quizpagewireframe.png'desktop quiz page')
+![alt text](assets/images/quizpagewireframe.png 'desktop quiz page')
 
 
 ### Desktop Score Page
@@ -58,7 +58,7 @@ Cinzel Decorative was used for everthing else.
 
 ### Desktop Feedback page
 
-![alt text](assets/images/feedbackwireframe.png'desktop Feedback page')
+![alt text](assets/images/feedbackwireframe.png 'desktop Feedback page')
 
 ## Features 
 
@@ -74,7 +74,7 @@ The Landing page features some animation using (https://animate.style/). A short
 
 The quiz page retains the animated style used in landing page. We then have a question followed by four answers labelled A-D. Upon selecting the correct answer, the answer option will turn green. The same applies to an incorrect answer which will of course display red. Underneath we have a 'Next' button just in case the user wishes to skip. Underneath the 'Next' button we show what question the user in on out of the 15 available. Lastly, four social media links which will bring the user the the relevant page. Each button is interactive and features a hover effect. See below for image.
 
-![alt text](assets/images/quizpage.png'Quiz Page')
+![alt text](assets/images/quizpage.png 'Quiz Page')
 
 ### Background
 
