@@ -1,6 +1,6 @@
 # The Music Quiz 
 
-![alt text](assets/images/amiresponsive. 'Home page on screen devices')
+![alt text](assets/images/amiresponsive.png 'Different page on screen devices')
 
 
 ## Overview
@@ -33,32 +33,32 @@ Cinzel Decorative was used for everthing else.
 
 ### Mobile Landing Page
 
-![alt text](assets/images/ 'mob landing')
+![alt text](assets/images/moblanding.png 'mob landing')
 
 ### Mobile Quiz Page
 
-![alt text](assets/images/ 'mob quiz')
+![alt text](assets/images/mobquiz.png 'mob quiz')
 
 ### Mobile Score Page
 
-![alt text](assets/images/ 'mob score Page')
+![alt text](assets/images/mobscore.png 'mob score Page')
 
 ### Desktop Landing Page
 
-![alt text](assets/images/ 'Landing Page')
+![alt text](assets/images/landingpagewireframe.png 'Landing Page')
 
 ### Desktop Quiz Page
 
-![alt text](assets/images/'desktop quiz page')
+![alt text](assets/images/quizpagewireframe.png'desktop quiz page')
 
 
 ### Desktop Score Page
 
-![alt text](assets/images/ 'desktop Score Page ')
+![alt text](assets/images/scorepagewireframe.png 'desktop Score Page ')
 
 ### Desktop Feedback page
 
-![alt text](assets/images/'desktop Feedback page')
+![alt text](assets/images/feedbackwireframe.png'desktop Feedback page')
 
 ## Features 
 
