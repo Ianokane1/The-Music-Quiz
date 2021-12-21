@@ -210,7 +210,7 @@ button:hover{
     }
 
     @media (hover: none) {
-        .option {
+        .option:hover {
         color: unset;
         }
         }
