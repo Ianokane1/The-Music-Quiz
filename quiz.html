@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Music quiz game">
-    <meta name="keywords" content="Music Quiz, Music, Quiz">
-    <title>Music Quiz</title>
-
-     <!-- css file link -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-</head>
-<body>
-    <a href="index.html"><h1 id = "title" class ="animate__animated animate__bounce">The Music Quiz</h1></a>
-  <!-- quiz-container -->
-    <div id="quiz-container">
-<!-- question container -->
-        <div class = "questions">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Music quiz game">
+      <meta name="keywords" content="Music Quiz, Music, Quiz">
+      <title>Music Quiz</title>
+      <!-- css file link -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+         />
+   </head>
+   <body>
+      <a href="index.html">
+         <h1 id = "title" class ="animate__animated animate__bounce">The Music Quiz</h1>
+      </a>
+      <!-- quiz-container -->
+      <div id="quiz-container">
+         <!-- question container -->
+         <div class = "questions">
             <h2 id="question">Questions</h2>
             <ol type ="A">
-                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
-                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
-                <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
-                <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
+               <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+               <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+               <li class="option"><span id="option2" onclick="calcScore(this)"></span></li>
+               <li class="option"><span id="option3" onclick="calcScore(this)"></span></li>
             </ol>
             <div class = "buttons">
-                <button type ="button" class = "next"> Next </button>
+               <button type ="button" class = "next"> Next </button>
             </div>
             <br>
             <h4 id="stat">stat</h4>
+         </div>
+      </div>
+      <!-- scoreboard section -->
+      <div id="scoreboard">
+         <h2 id="score-title">Your Score</h2>
+         <h2 id="score">score</h2>
+         <button type="button" class="send-button" onclick="backToQuiz()">Back to Quiz</button>
+         <button type="button" class="send-button" onclick="checkAnswer()">Check Answers</button>
+         <button type="button" class="send-button" onClick="window.location.href='feedback.html';">Feedback</button>
+      </div>
+      <!-- answers section -->
+      <div id="answerBank">
+         <h2>Answers :</h2>
+         <ol type="1" id="answers">
+         </ol>
+         <button type="button" class="send-button" onclick="backToQuiz()">Back to Quiz</button>
+         <button type="button" class="send-button" onClick="window.location.href='feedback.html';">Feedback</button>
+      </div>
+      <footer>
+        <!-- Social media links-->
+        <div class ="animate__animated animate__bounce">
+           <ul class="social-networks ">
+              <li><a href="https://www.facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="https://www.twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="https://www.youtube.com" target="_blank" rel="noopener"><i class="fab fa-youtube-square"></i></a></li>
+              <li><a href="https://www.instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a></li>
+           </ul>
         </div>
-
-    </div>
-
-    <!-- scoreboard section -->
-    <div id="scoreboard">
-        <h2 id="score-title">Your Score</h2>
-        <h2 id="score">score</h2>
-        <button type="button" class="send-button" onclick="backToQuiz()">Back to Quiz</button>
-        <button type="button" class="send-button" onclick="checkAnswer()">Check Answers</button>
-        <button type="button" class="send-button" onClick="window.location.href='feedback.html';">Feedback</button>
-    </div>
-
-    <!-- answers section -->
-    <div id="answerBank">
-        <h2>Answers :</h2>
-        <ol type="1" id="answers">
-
-        </ol>
-        <button type="button" class="send-button" onclick="backToQuiz()">Back to Quiz</button>
-        <button type="button" class="send-button" onClick="window.location.href='feedback.html';">Feedback</button>
-    </div>
-
-   
-
-<!-- javascript file source -->
-    <script src="assets/js/script.js"></script>
-    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
-</body>
+     </footer>
+      <!-- javascript file source -->
+      <script src="assets/js/script.js"></script>
+      <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+   </body>
 </html>
