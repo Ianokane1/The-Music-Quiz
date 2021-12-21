@@ -99,7 +99,7 @@ let score= 0;
 
 //function to display questions
 function displayQuestion(){
-    for(var a=0;a<span.length;a++){
+    for(let a=0;a<span.length;a++){
         span[a].style.background='none';
     }
     question.innerHTML= 'Q.'+(i+1)+' '+questionBank[i].question;
