@@ -228,7 +228,7 @@ Some errors were found when passing the script.js file through JSHint. Errors cl
 Lighthouse was utilised to test the performance, accessibility, best practices and SEO of the website.
 See below for image
 
-![alt text](assets/images/ 'lighthouse')
+![alt text](assets/images/lighthouse.png 'lighthouse')
 
 ## Deployment 
 
