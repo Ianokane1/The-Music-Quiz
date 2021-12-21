@@ -178,20 +178,21 @@ button:hover{
 
             /* Social networks */
 
+/* Social networks */
+
 .social-networks {
 	text-align: center;
 }
 
 .social-networks li {
-	display: ;
+	display: inline;
 }
 
 .social-networks i {
 	font-size: 250%;
-	margin-top: 10px;
+	margin: 1%;
+	padding: 5%;
 	color: #ffbe0b;
-    letter-spacing: 100px;
-    
 }
 
 .social-networks i:hover {
@@ -199,7 +200,7 @@ button:hover{
 }
 
 #feedback-footer {
-    margin-top: 450px;
+    margin-top: 600px;
 }
 
 @media screen and (max-width: 550px) {
