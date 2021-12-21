@@ -68,19 +68,19 @@ Cinzel Decorative was used for everthing else.
 
 The Landing page features some animation using (https://animate.style/). A short introductory follows as well as the instructions. Underneath we have a "let's Dance" button to commecnce the quiz.
 
-![alt text](assets/images/ 'landing page') 
+![alt text](assets/images/landingpage.png 'landing page') 
 
 ### Quiz Page
 
 The quiz page retains the animated style used in landing page. We then have a question followed by four answers labelled A-D. Upon selecting the correct answer, the answer option will turn green. The same applies to an incorrect answer which will of course display red. Underneath we have a 'Next' button just in case the user wishes to skip. Underneath the 'Next' button we show what question the user in on out of the 15 available. Lastly, four social media links which will bring the user the the relevant page. Each button is interactive and features a hover effect. See below for image.
 
-![alt text](assets/images/'Quiz Page')
+![alt text](assets/images/quizpage.png'Quiz Page')
 
 ### Background
 
 The background image, which is featured on all pages, is a DJ in a booth. image taken from (https://coolwallpapers.me/)
 
-![alt text](assets/images/'background')
+![alt text](assets/images/studio.png)
 
 ### Footer
 
@@ -90,13 +90,13 @@ The bottom of each page features a footer with four social media links which wil
 
 After anwering the 15th question the user will be given their score. The user can choose to play again, check the correct answers or provide feedback. 
 
-![alt text](assets/images/ 'score counter')
+![alt text](assets/images/scorepage.png 'score counter')
 
 ### Check Answers
 
 Upon selecting 'check answers' the user will be shown a list of the correct answers. See below
 
-![alt text](assets/images/ 'check answers')
+![alt text](assets/images/answers.png 'check answers')
 
 
 ### Feedback
