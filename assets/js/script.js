@@ -1,5 +1,5 @@
 //Question bank
-var questionBank= [
+let questionBank= [
     {
         question : 'Which 80s star is recognised by Guinness World Records as the best-selling female recording artist of all time?',
         option : ['Blondie','Whitney Houston','Madonna','Cher'],
@@ -30,57 +30,43 @@ var questionBank= [
         question : 'The 1992 comedy hit Wayne’s World was a revival for which 1975 song?',
         option : ['Another brick in the wall','A whole lotta love','Bohemian Rhapsody','Livin\' on a prayer'],
         answer : 'Bohemian Rhapsody'
-    }
-
-    ,
+    },
 
     {
         question : 'Who won a grammy for best reggae album in 1995 with Boombastic?',
         option : ['Sting','Peter Andre','Justin Timberlake','Shaggy'],
         answer : 'Shaggy'
-    }
-
-    ,
+    },
 
     {
         question : 'What was the name of Lighthouse Family’s 6 times platinum album released in 1995?',
         option : ['Mountain Drive','River Drive','Forest Drive','Ocean Drive'],
         answer : 'Ocean Drive'
-    }
-
-    ,
+    },
 
     {
         question : 'Robbie Williams began a famous solo career after leaving which band in 1995?',
         option : ['Take That','5ive','Boyzone','Westlife'],
         answer : 'Take That'
-    }
-
-    ,
+    },
 
     {
         question : 'Which is the only country to have won 3 Eurovision Song Contests in a row (1992, 1993 and 1994)?',
         option : ['Ireland','Great Britain','Geramany','Finland'],
         answer : 'Ireland'
-    }
-
-    ,
+    },
 
     {
         question : 'Eminem released his eponymous album (named after himself) in 2000, what was it called?',
         option : ['Curtain Calls','The Slim Shady LP','The Marshall Mathers LP','The Eminem LP'],
         answer : 'The Marshall Mathers LP'
-    }
-
-    ,
+    },
 
     {
         question : 'Maroon 5 released their solo album in 2002 titled Songs About…who?',
         option : ['Teresa','Sarah','Jane','Mary'],
         answer : 'Jane'
-    }
-
-    ,
+    },
 
     {
         question : 'Florian Cloud de Bounevialle O\'Malley Armstrong is the real name of which 00s icon?',
@@ -97,11 +83,10 @@ var questionBank= [
         option : ['Thin Lizzy','U2','Aslan','None of the above'],
         answer : 'Thin Lizzy'
     },
-]
+];
 
 let question= document.getElementById('question');
 let quizContainer= document.getElementById('quiz-container');
-let scorecard= document.getElementById('scorecard');
 let option0= document.getElementById('option0');
 let option1= document.getElementById('option1');
 let option2= document.getElementById('option2');
@@ -148,7 +133,7 @@ function nextQuestion(){
     else{
         points.innerHTML= score+ '/'+ questionBank.length;
         quizContainer.style.display= 'none';
-        scoreboard.style.display= 'block'
+        scoreboard.style.display= 'block';
     }
 }
 
