@@ -200,31 +200,28 @@ Huawei laptop | responsive with no functionality issues | Pass
 W3C Validator was used to check for error within my HTML code. The following errors were presented.
 
 ### Landing Page
-![alt text](assets/images/ 'Landing page unvalidated')
-![alt text](assets/images/'Landing page validated')
+![alt text](assets/images/landingerrors.png 'Landing page unvalidated')
+![alt text](assets/images/landingvalidated.png 'Landing page validated')
 
 ### Quiz Page
-[alt text](assets/images/ 'Quiz page unvalidated')
-![alt text](assets/images/ 'Quiz page validated')
+[alt text](assets/images/quizerror.png 'Quiz page unvalidated')
+![alt text](assets/images/quizvalidated.png 'Quiz page validated')
 
 ### Feedback Page 
-[alt text](assets/images/ 'Feedback unvalidated')
-![alt text](assets/images/ 'Feedback validated')
+[alt text](assets/images/feedbackerror.png 'Feedback unvalidated')
+![alt text](assets/images/feedbackvalidated.png 'Feedback validated')
 
 ## CSS Validator 
 
 The CSS passed through the validator without any errors. 
 
-![alt text](assets/images/'css validated')
+![alt text](assets/images/cssvalidated.png 'css validated')
 
 ## Javascript Validating 
 
-### script.js
+Some errors were found when passing the script.js file through JSHint. Errors cleared
 
-Some errors were found when passing the script.js file through JSHint. see below
-
-![alt text](assets/images/'script jshint unvalidated')
-![alt text](assets/images/ 'script jshint validated')
+![alt text](assets/images/jsvalidated.png 'script jshint validated')
 
 ## Lighthouse 
 
@@ -251,8 +248,9 @@ The link to the live website is [here](https://ianokane1.github.io/The-Music-Qui
 
 * Three youtube tutorials were used to kick start and support the quiz project in regards to the javascript https://www.youtube.com/watch?v=riDzcEQbX6kand & https://www.youtube.com/watch?v=TLuGPBeBo_g & https://www.youtube.com/watch?v=f4fB9Xg2JEY
 
+* Some code used from Code Institute - Love Maths
+
 * https://stackoverflow.com/ was used to help find solutions to problems
 
 Lastly, Thanks to my Marcel Mulders for his guidance through this project.
 
-[Go to the top](#The Music Quiz)
