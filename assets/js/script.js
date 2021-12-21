@@ -145,7 +145,7 @@ function backToQuiz(){
     location.reload();
 }
 
-//function to check Answers
+//function to check answers
 function checkAnswer(){
     let answerBank= document.getElementById('answerBank');
     let answers= document.getElementById('answers');

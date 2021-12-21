@@ -86,6 +86,9 @@ span {
 	border-radius: 16px;
 }
 
+#stat {
+	font-size: 30px;
+}
 .buttons {
 	text-align: center;
 }
@@ -162,6 +165,7 @@ button:hover {
 	position: absolute;
 	padding: 30px;
 	text-align: center;
+	font-size: 20px;
 }
 
 .text-input {
@@ -186,7 +190,7 @@ button:hover {
 	text-align: center;
 	font-size: 100%;
 	background-color: #ffbe0b;
-	color: #fafafa;
+	color: black;
 	font-size: 25px;
 	font-family: Cinzel Decorative;
 }
