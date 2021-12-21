@@ -137,7 +137,7 @@ button:hover{
             .signup-form {
                 margin: 100px 0 0 0;
                 color: #fff;
-                background-color: black;
+                background-color: rgba(117, 117, 165, 0.77);
                 max-width: 400px;
                 position: absolute;
                 padding: 30px;
