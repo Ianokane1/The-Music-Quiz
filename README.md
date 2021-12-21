@@ -129,7 +129,7 @@ Let's Dance button | Play button to link to game | Pass
 ### Quiz Page
 Feature | Test | Outcome
 --- | --- | ---
-Question | Question appears | pass 
+Question | Question appears | Pass 
 Question | New question to generate each time a question is answered | Pass
 Multiple Choice Answers | Answers to highlight when hovered over | Pass
 Multiple Choice Answers | Answers to highlight green if correct and red if incorrect | Pass

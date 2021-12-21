@@ -132,8 +132,8 @@ function nextQuestion(){
     }
     else{
         points.innerHTML= score+ '/'+ questionBank.length;
-        quizContainer.style.display= 'none';
-        scoreboard.style.display= 'block';
+        quizContainer.style.display = 'none';
+        scoreboard.style.display = 'block';
     }
 }
 
@@ -151,8 +151,7 @@ function checkAnswer(){
     let answers= document.getElementById('answers');
     answerBank.style.display= 'block';
     scoreboard.style.display= 'none';
-    for(let a=0;a<questionBank.length;a++)
-    {
+    for (let a = 0; a<questionBank.length; a++) {
         let list= document.createElement('li');
         list.innerHTML= questionBank[a].answer;
         answers.appendChild(list);
