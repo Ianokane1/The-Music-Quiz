@@ -52,7 +52,7 @@ let questionBank= [
 
     {
         question : 'Which is the only country to have won 3 Eurovision Song Contests in a row (1992, 1993 and 1994)?',
-        option : ['Ireland','Great Britain','Geramany','Finland'],
+        option : ['Ireland','Great Britain','Germany','Finland'],
         answer : 'Ireland'
     },
 
