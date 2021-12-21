@@ -122,7 +122,8 @@ button:hover {
 
 #score-title {
 	margin: 16px 0;
-	color: black;
+	color: white;
+    font-size: 60px;
 }
 
 #check-answer {
@@ -130,8 +131,8 @@ button:hover {
 }
 
 #score {
-	font-size: 40px;
-	color: black;
+	font-size: 100px;
+	color: white;
 }
 
 #answerBank li {
