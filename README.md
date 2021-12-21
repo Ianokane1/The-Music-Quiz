@@ -103,7 +103,7 @@ Upon selecting 'check answers' the user will be shown a list of the correct answ
 
 If the user wishes to provide feedback, a feedback page is available. See below
 
-![alt text](assets/images/ 'feedback')
+![alt text](assets/images/feedback.png 'feedback')
 
 
 ## Technologies used 
