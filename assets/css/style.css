@@ -96,9 +96,9 @@ button:hover{
     }
 
         #scoreboard,#answerBank{
-            width: 320px;
-            background: pink;
-            padding: 32px;
+            width: 520px;
+            background: rgba(117, 117, 165, 0.77);
+            padding: 40px;
             text-align: center;
             margin: auto;
             position: relative;
@@ -109,7 +109,7 @@ button:hover{
                 margin: 16px 0;
                 color: black;
             }
-            #score-btn,#check-answer{
+            #check-answer{
                 margin-top: 16px;
                 
             }
@@ -120,7 +120,7 @@ button:hover{
             #answerBank li{
                 text-align: left;
                 margin-bottom: 3.2px;
-                font-size: larger;
+                font-size: 40px;
             }
             #answers{
                 margin-top: 16px;
